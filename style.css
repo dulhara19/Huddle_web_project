@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(239, 253, 255);
+   /* border: 2px solid blue; */
+   /* background-image: url(/images/bg-hero-mobile.svg);
+    background-position:; */
+}
+header .hero-img{
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+}
+nav{
+    padding-top: 1em;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+   /* border: 1px solid rgb(7, 224, 0);*/
+    position: relative;
+    z-index: 2;
+}
+nav .logo-box{
+    display: grid;
+    place-items: center;
+}
+nav .logo{
+    width: 6em;
+    margin-left: 1em;
+}
+nav .nav-text{
+   /* background-color: black;*/
+    color: white;
+    display: grid;
+    place-items: center;
+    margin-right: 1em;
+    box-sizing: border-box;
+}
+.nav-text a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    padding: 0.2em 1em;
+    border-radius: 15px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: rgb(255, 214, 248);
+    transition: 500ms;
+}
+.nav-text a:hover{
+    background-color: pink;
+    border: 2px solid pink;
+}
+.header-container{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+   /* background-color: red;*/
+    display: block;
+    box-sizing: border-box;
+    margin-top: 3em;
+}
+.container-textbox{
+   /* border: 2px dashed purple;*/
+    padding: 1em;
+    text-align: center;
+}
+.container-textbox h3{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+.container-textbox p{
+    margin-top: 2em;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+.container-textbox button{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(201, 0, 219);
+    margin-top: 2.2em;
+    transition: 500ms;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+}
+.container-textbox button:hover{
+    background-color: pink;
+    color: black;
+}
+.container-svg{
+   /* border: 2px dotted rgb(50, 0, 143); */
+    margin-top: 2.1em;
+    display: grid;
+    place-items: center;
+}
+.container-svg-class{
+    width: 90%;
+}
+section{
+    position: relative;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.card-1{
+    background-color: rgb(220, 221, 255);
+    margin: 2em 1em 0.25em 1em;
+    border-radius: 10px;
+}
+.card-1-svg{
+    width: 100%;
+}
+.card-1-svg-class{
+    width: 100%;
+}
+.card-1-textbox{
+    padding: 1em;
+    font-family: arial;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.card-1-textbox p{
+    margin-top: 1em;
+}
+.card-2{
+    background-color: rgb(220, 221, 255);
+    margin: 0.25em 1em ;
+    border-radius: 10px;
+}
+.card-2-svg{
+    width: 100%;
+}
+.card-2-svg-class{
+    width: 100%;
+}
+.card-2-textbox{
+    padding: 1em;
+    font-family: arial;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.card-2-textbox p{
+    margin-top: 1em;
+}
+.card-3{
+    background-color: rgb(220, 221, 255);
+    margin: 0.25em 1em;
+    border: none;
+    border-radius: 10px;
+}
+.card-3-textbox{
+    padding: 1em;
+    font-family: arial;
+    font-size: 13px;
+}
+.card-3-textbox p{
+    margin-top: 1em;
+}
+.card-3-svg{
+    width: 100%;
+}
+.card-3-svg-class{
+    width: 100%;
+}
+.alert{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: rgb(184, 207, 255);
+}
+.alert h3{
+    margin-top: 2em;
+    font-family: sans;
+    color: rgb(7, 7, 37);
+}
+.alert a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-family:monospace;
+    font-weight: bold;
+    border: none;
+    padding: 1em;
+    border-radius: 20px;
+    background-color: rgb(155, 0, 160);
+    margin: 2em 0 2.7em 0;
+}
+footer{
+    background:linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0), rgb(0, 0, 0));
+    color: white;
+}
+.footer-logo{
+    width: 50%;
+    margin:2rem 1rem;
+}
+footer ul li{
+    padding: 0 1em;
+    font-family: sans-serif;
+    font-size: 11.4px;
+}
+footer ul li i{
+    margin-right: 1em;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(58, 255, 239);
+    font-weight: bold;
+}
+.copywrite{
+    display: grid;
+    place-items:center;
+}
+.copy-text{
+    font: 9px white ;
+    font-family: monospace;
+    margin: 2em;
+}
+.copywrite p{
+    font: 12px white ;
+    font-family: monospace;
+    margin: 2em;
+}
