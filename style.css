@@ -197,6 +197,10 @@ section{
     border-radius: 20px;
     background-color: rgb(155, 0, 160);
     margin: 2em 0 2.7em 0;
+    transition: 500ms;
+}
+.alert a:hover{
+    background-color: hotpink;
 }
 footer{
     background:linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0), rgb(0, 0, 0));
@@ -232,4 +236,52 @@ footer ul li a{
     font: 12px white ;
     font-family: monospace;
     margin: 2em;
+}
+
+/*======tablet-size(min-width:600px)=============*/
+
+@media (min-width:600px) {
+    nav .logo{
+        width: 10em;
+    }
+    .nav-text a{
+        font-size: 15px;
+        margin-top: .4em;
+    }
+    .container-textbox h3{
+        font-size: 18px;
+    }
+    .container-textbox p{
+        font-size: 13.7px;
+    }
+    .container-svg-class{
+        width: 80%;
+    }
+    .card-1 , .card-2,.card-3{
+        display: flex;
+        margin: 0.38em 1em;
+    }
+    header{
+        height: 80vh;
+    }
+    .header-container{
+        display: flex;
+       /* border: 2px dashed red; */
+        margin-top: 5em;
+    }
+    .card-1-textbox h4{
+        font-size: 16px;
+        margin-top: 2em;
+    }
+    .card-2{
+        flex-direction:row-reverse;
+    }
+    .card-2-textbox h4{
+        font-size: 16px;
+        margin-top: 2em;
+    }
+    .card-3-textbox h4{
+        font-size: 16px;
+        margin-top: 2em;
+    }
 }
